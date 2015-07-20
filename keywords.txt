@@ -1,0 +1,3 @@
+Motor   KEYWORD1
+spinAt  KEYWORD2
+stop    KEYWORD2

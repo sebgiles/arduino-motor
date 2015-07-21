@@ -16,7 +16,7 @@ public:
 
     Motor(int fwdPin, int revPin, float supplyVoltage=0);
 
-    void turn(float power); //-1<=power<=1
+    virtual void turn(float power); //-1<=power<=1
     void applyVoltage(float voltage);
 
     void stop();
